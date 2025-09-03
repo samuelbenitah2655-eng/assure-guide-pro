@@ -16,7 +16,7 @@ const StickyCallButton = () => {
         className="w-full bg-success text-success-foreground hover:bg-success/90 py-4 text-lg font-semibold shadow-lg"
       >
         <Phone className="w-5 h-5 mr-2" />
-        📞 Appeler maintenant
+        Appeler maintenant
       </Button>
     </div>
   );

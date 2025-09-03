@@ -12,18 +12,18 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <header>
         <Hero />
-        <div className="bg-primary/5 py-4 px-4 text-center">
-          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary mb-2">
-            👉 Appelez un conseiller
+        <div className="bg-primary/5 py-3 px-4 text-center">
+          <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-primary mb-1">
+            Appelez un conseiller
           </h1>
-          <h2 className="text-lg md:text-xl lg:text-2xl text-text-dark">
-            👉 pour toute question relative à la comparaison de vos contrats d'assurance
+          <h2 className="text-base md:text-lg lg:text-xl text-text-dark">
+            pour toute question relative à la comparaison de vos contrats d'assurance
           </h2>
         </div>
       </header>
 
       <main>
-        <section className="py-8 md:py-12">
+        <section className="py-4 md:py-6">
           <CallToAction />
         </section>
 
