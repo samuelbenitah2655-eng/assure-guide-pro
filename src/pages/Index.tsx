@@ -13,7 +13,7 @@ const Index = () => {
       <header>
         <Hero />
         <div className="bg-primary/5 py-3 px-4 text-center">
-          <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-primary mb-1">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary mb-1">
             Appelez un conseiller
           </h1>
           <h2 className="text-base md:text-lg lg:text-xl text-text-dark">

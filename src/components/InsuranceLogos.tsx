@@ -14,13 +14,13 @@ const InsuranceLogos = () => {
   return (
     <section className="py-8 md:py-12 px-4">
       <div className="max-w-4xl mx-auto">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 mb-6">
           {logos.map((logo, index) => (
-            <div key={index} className="flex items-center justify-center p-2">
+            <div key={index} className="flex items-center justify-center p-3">
               <img 
                 src={logo.logo}
                 alt={`Logo ${logo.name}`}
-                className="h-8 md:h-10 w-auto object-contain"
+                className="h-12 md:h-16 w-auto object-contain"
               />
             </div>
           ))}
