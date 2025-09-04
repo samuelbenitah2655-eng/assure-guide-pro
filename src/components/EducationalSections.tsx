@@ -1,6 +1,5 @@
 const EducationalSections = () => {
-  return (
-    <div className="space-y-16 md:space-y-20 py-12 md:py-16 px-4">
+  return <div className="space-y-16 md:space-y-20 py-12 md:py-16 px-4">
       {/* Section 1: Économies */}
       <section className="max-w-4xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-bold text-primary mb-8 text-center">
@@ -96,7 +95,7 @@ const EducationalSections = () => {
         <div className="space-y-6">
           <div className="bg-white border border-border rounded-lg p-6">
             <h4 className="font-semibold text-primary mb-3">Est-ce vraiment gratuit ?</h4>
-            <p className="text-sm md:text-base text-text-dark">Oui, notre service de comparaison et nos conseils sont entièrement gratuits. Nous sommes rémunérés par les assureurs partenaires.</p>
+            <p className="text-sm md:text-base text-text-dark">Oui, notre service de comparaison et nos conseils sont entièrement gratuits.</p>
           </div>
           <div className="bg-white border border-border rounded-lg p-6">
             <h4 className="font-semibold text-primary mb-3">Combien de temps pour changer d'assurance ?</h4>
@@ -112,8 +111,6 @@ const EducationalSections = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default EducationalSections;
