@@ -10,14 +10,14 @@ const InstitutionalLogos = () => {
             <img 
               src={franceAssureursLogo}
               alt="Fédération Française de l'Assurance"
-              className="h-10 md:h-12 w-auto object-contain"
+              className="h-12 md:h-12 w-auto object-contain"
             />
           </div>
           <div className="flex items-center justify-center p-2">
             <img 
               src={banqueFranceLogo}
               alt="ACPR - Banque de France"
-              className="h-10 md:h-12 w-auto object-contain"
+              className="h-12 md:h-12 w-auto object-contain"
             />
           </div>
         </div>

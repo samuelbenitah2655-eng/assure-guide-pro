@@ -20,7 +20,7 @@ const InsuranceLogos = () => {
               <img 
                 src={logo.logo}
                 alt={`Logo ${logo.name}`}
-                className="h-12 md:h-16 w-auto object-contain"
+                className="h-14 md:h-16 w-auto object-contain"
               />
             </div>
           ))}
