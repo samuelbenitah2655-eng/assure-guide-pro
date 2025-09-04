@@ -1,85 +1,90 @@
 const EducationalSections = () => {
   return (
     <div className="space-y-16 md:space-y-20 py-12 md:py-16 px-4">
-      {/* Section 1: Avoir le choix */}
+      {/* Section 1: Économies */}
       <section className="max-w-4xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-bold text-primary mb-8 text-center">
-          Avoir le choix de son assurance, c'est important
+          Et pourquoi ne pas en profiter pour faire des économies sur vos assurances ?
         </h2>
         <div className="prose prose-lg mx-auto text-text-dark">
           <p className="text-base md:text-lg leading-relaxed mb-6">
-            Choisir son assurance n'est pas qu'une question de prix. C'est aussi une question de garanties, 
-            de franchise, de service client et de rapidité d'indemnisation. Avec plus de 300 compagnies 
-            d'assurance en France, il est essentiel de comparer pour trouver l'offre qui vous correspond vraiment.
+            Vous avez acheté un nouveau véhicule, signé un crédit immobilier, ou simplement atteint l'échéance de votre contrat ? C'est le moment idéal pour comparer les offres d'assurance !
           </p>
-          <div className="grid md:grid-cols-2 gap-6 mt-8">
-            <div className="bg-muted/50 p-6 rounded-lg">
-              <h4 className="font-semibold text-primary mb-3">Économies garanties</h4>
-              <p className="text-sm md:text-base">Jusqu'à 300€ d'économies par an sur vos contrats d'assurance</p>
-            </div>
-            <div className="bg-muted/50 p-6 rounded-lg">
-              <h4 className="font-semibold text-primary mb-3">Service personnalisé</h4>
-              <p className="text-sm md:text-base">Un conseiller dédié pour vous accompagner dans vos démarches</p>
-            </div>
-          </div>
+          <p className="text-base md:text-lg leading-relaxed mb-6">
+            Nos conseillers analysent vos besoins (auto, habitation, santé, emprunteur…) et identifient le contrat le plus adapté à votre profil. L'économie annuelle moyenne constatée par nos utilisateurs atteint plusieurs centaines d'euros, à garanties comparables.
+          </p>
+          <p className="text-base md:text-lg leading-relaxed mb-6">
+            Avec l'ouverture du marché et les lois récentes (loi Hamon, loi Bourquin, résiliation infra-annuelle), vous êtes libre de changer d'assurance plus facilement que jamais. La couverture reste assurée sans interruption, et les démarches sont simplifiées par nos conseillers.
+          </p>
         </div>
       </section>
 
-      {/* Section 2: Comment changer */}
+      {/* Section 2: Comment choisir */}
       <section className="max-w-4xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-bold text-primary mb-8 text-center">
-          Comment changer d'assurance ?
+          COMMENT CHOISIR SON ASSURANCE ?
         </h2>
         <div className="text-text-dark">
-          <p className="text-base md:text-lg leading-relaxed mb-8 text-center">
-            Depuis la loi Hamon et la résiliation annuelle, changer d'assurance n'a jamais été aussi simple.
+          <p className="text-base md:text-lg leading-relaxed mb-6">
+            Chaque année, des millions de contrats sont souscrits ou renouvelés en France. Les besoins diffèrent selon votre situation : type de véhicule, valeur de votre logement, état de santé, montant du prêt immobilier…
           </p>
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="text-center p-6 bg-white border border-border rounded-lg">
-              <div className="w-12 h-12 bg-primary text-primary-foreground rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">1</div>
-              <h4 className="font-semibold text-primary mb-3">Appelez-nous</h4>
-              <p className="text-sm">Un conseiller analyse vos besoins et compare les offres</p>
-            </div>
-            <div className="text-center p-6 bg-white border border-border rounded-lg">
-              <div className="w-12 h-12 bg-primary text-primary-foreground rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">2</div>
-              <h4 className="font-semibold text-primary mb-3">Souscrivez</h4>
-              <p className="text-sm">Validation de votre nouveau contrat en quelques minutes</p>
-            </div>
-            <div className="text-center p-6 bg-white border border-border rounded-lg">
-              <div className="w-12 h-12 bg-primary text-primary-foreground rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">3</div>
-              <h4 className="font-semibold text-primary mb-3">Nous gérons tout</h4>
-              <p className="text-sm">Résiliation de l'ancien contrat sans interruption de couverture</p>
-            </div>
-          </div>
+          <p className="text-base md:text-lg leading-relaxed mb-8">
+            Comparer permet d'éviter les doublons, de réduire les cotisations inutiles et surtout d'ajuster vos garanties à vos vrais besoins.
+          </p>
         </div>
       </section>
 
-      {/* Section 3: Comment choisir */}
+      {/* Section 3: Démarches */}
       <section className="max-w-4xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-bold text-primary mb-8 text-center">
-          Comment choisir son contrat ?
+          Quelles sont les démarches pour changer ?
+        </h2>
+        <div className="text-text-dark">
+          <p className="text-base md:text-lg leading-relaxed mb-6">
+            Changer d'assurance est une démarche simple et encadrée par la loi :
+          </p>
+          <ul className="space-y-4 mb-6 text-base md:text-lg leading-relaxed">
+            <li><strong>Assurance Auto / Habitation :</strong> résiliation possible à l'échéance, et après 1 an à tout moment (loi Hamon).</li>
+            <li><strong>Assurance Emprunteur :</strong> résiliation possible à tout moment (loi Lemoine), sous réserve d'équivalence de garanties.</li>
+            <li><strong>Complémentaire Santé :</strong> résiliation possible à échéance, parfois en cours d'année selon les conditions.</li>
+          </ul>
+          <p className="text-base md:text-lg leading-relaxed mb-8">
+            Nos conseillers s'occupent de tout : souscription du nouveau contrat et résiliation de l'ancien. Vous êtes protégé en continu.
+          </p>
+        </div>
+      </section>
+
+      {/* Section 4: Offres adaptées */}
+      <section className="max-w-4xl mx-auto">
+        <h2 className="text-2xl md:text-3xl font-bold text-primary mb-8 text-center">
+          Quelles offres d'assurance sont adaptées à vos besoins ?
         </h2>
         <div className="grid md:grid-cols-2 gap-8">
           <div className="space-y-6">
             <div className="bg-white border border-border rounded-lg p-6">
-              <h4 className="font-semibold text-primary mb-3">🚗 Assurance Auto</h4>
-              <p className="text-sm text-text-dark">Responsabilité civile, vol, incendie, tous risques... Adaptez votre couverture à votre véhicule et votre profil.</p>
+              <h4 className="font-semibold text-primary mb-3">🚗 Auto</h4>
+              <p className="text-sm text-text-dark">responsabilité civile obligatoire, garanties tous risques, assistance 0 km, véhicule de remplacement…</p>
             </div>
             <div className="bg-white border border-border rounded-lg p-6">
-              <h4 className="font-semibold text-primary mb-3">🏠 Assurance Habitation</h4>
-              <p className="text-sm text-text-dark">Multirisques habitation, garantie dégât des eaux, vol, responsabilité civile vie privée.</p>
+              <h4 className="font-semibold text-primary mb-3">🏠 Habitation</h4>
+              <p className="text-sm text-text-dark">multirisques habitation, dégâts des eaux, incendie, vol, protection juridique.</p>
             </div>
           </div>
           <div className="space-y-6">
             <div className="bg-white border border-border rounded-lg p-6">
-              <h4 className="font-semibold text-primary mb-3">🏥 Complémentaire Santé</h4>
-              <p className="text-sm text-text-dark">Remboursement des soins, hospitalisation, optique, dentaire selon vos besoins de santé.</p>
+              <h4 className="font-semibold text-primary mb-3">🏥 Santé</h4>
+              <p className="text-sm text-text-dark">hospitalisation, dentaire, optique, audio, remboursement rapide.</p>
             </div>
             <div className="bg-white border border-border rounded-lg p-6">
-              <h4 className="font-semibold text-primary mb-3">🏦 Assurance Emprunteur</h4>
-              <p className="text-sm text-text-dark">Décès, invalidité, incapacité de travail pour sécuriser votre crédit immobilier.</p>
+              <h4 className="font-semibold text-primary mb-3">🏦 Emprunteur</h4>
+              <p className="text-sm text-text-dark">décès, invalidité, incapacité de travail, couverture personnalisée pour votre prêt.</p>
             </div>
           </div>
+        </div>
+        <div className="text-center mt-8">
+          <p className="text-base md:text-lg text-text-dark">
+            Chaque offre est évaluée selon 4 critères : prix, garanties, franchises, exclusions.
+          </p>
         </div>
       </section>
 

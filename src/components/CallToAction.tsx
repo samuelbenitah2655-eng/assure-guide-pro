@@ -31,13 +31,13 @@ const CallToAction = ({ className = "", onCallClick }: CallToActionProps) => {
         </h2>
         <div className="bg-white border-2 border-success overflow-hidden">
           <div className="py-3 px-4">
-            <div className="text-3xl md:text-4xl font-bold text-success text-center whitespace-nowrap">
+            <div className="text-2xl md:text-4xl font-bold text-success text-center whitespace-nowrap flex items-center justify-center">
               09 70 25 44 16
             </div>
           </div>
           <Button 
             onClick={handleCall}
-            className="w-full bg-success text-success-foreground hover:bg-success/90 text-sm md:text-base font-semibold py-2 rounded-none"
+            className="w-full bg-success text-success-foreground hover:bg-success/90 text-xs md:text-sm font-semibold py-1.5 rounded-none"
           >
             CLIQUEZ POUR APPELER
           </Button>
