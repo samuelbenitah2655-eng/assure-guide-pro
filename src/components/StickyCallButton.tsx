@@ -5,7 +5,7 @@ const StickyCallButton = () => {
   const handleCall = () => {
     // On mobile, try to make a call
     if (/Mobi|Android/i.test(navigator.userAgent)) {
-      window.location.href = 'tel:0970254416';
+      window.location.href = 'tel:0972190055';
     }
   };
 

@@ -19,7 +19,7 @@ const CallToAction = ({ className = "", onCallClick }: CallToActionProps) => {
     }
     // Try to make a call on mobile
     if (/Mobi|Android/i.test(navigator.userAgent)) {
-      window.location.href = 'tel:0970254416';
+      window.location.href = 'tel:0972190055';
     }
   };
 
@@ -32,7 +32,7 @@ const CallToAction = ({ className = "", onCallClick }: CallToActionProps) => {
         <div className="bg-white border-2 border-success overflow-hidden">
           <div className="py-3 px-4">
             <div className="text-2xl md:text-4xl font-bold text-success text-center whitespace-nowrap flex items-center justify-center">
-              09 70 25 44 16
+              09 72 19 00 55
             </div>
           </div>
           <Button 
