@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import CallToAction from "./CallToAction";
 import compareLogo from "/lovable-uploads/112e80bd-c85e-4edd-8ebf-1d5211d945d3.png";
 
@@ -18,18 +19,18 @@ const Footer = () => {
             </div>
             
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6 max-w-2xl mx-auto">
-              <a href="#" className="text-sm text-white hover:text-white/80 transition-colors">
+              <Link to="/qui-sommes-nous" className="text-sm text-white hover:text-white/80 transition-colors">
                 Qui sommes-nous ?
-              </a>
-              <a href="#" className="text-sm text-white hover:text-white/80 transition-colors">
+              </Link>
+              <Link to="/contactez-nous" className="text-sm text-white hover:text-white/80 transition-colors">
                 Contactez-nous
-              </a>
-              <a href="#" className="text-sm text-white hover:text-white/80 transition-colors">
+              </Link>
+              <Link to="/charte-donnees" className="text-sm text-white hover:text-white/80 transition-colors">
                 Charte de protection des données
-              </a>
-              <a href="#" className="text-sm text-white hover:text-white/80 transition-colors">
+              </Link>
+              <Link to="/mentions-legales" className="text-sm text-white hover:text-white/80 transition-colors">
                 Mentions légales
-              </a>
+              </Link>
             </div>
             
             <p className="text-xs text-white/90 leading-relaxed mb-4">
