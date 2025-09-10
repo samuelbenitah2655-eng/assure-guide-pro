@@ -29,7 +29,8 @@ const MentionsLegales = () => {
               <p className="mb-2">Forme juridique : Entreprise individuelle</p>
               <p className="mb-2">RCS : 789 298 759 R.C.S. Evry</p>
               <p className="mb-2">Siège social : 2Bis allée de la pommeraie 91570 BIEVRES</p>
-              <p>Directeur de la publication : Monsieur BENITAH</p>
+              <p className="mb-2">Directeur de la publication : Monsieur BENITAH</p>
+              <p>Enregistré à l'ORIAS sous le numéro 25003275 (www.orias.fr) en qualité de courtier en assurances.</p>
             </div>
 
             <h3 className="text-xl font-bold text-primary mt-8 mb-4">Hébergement</h3>
