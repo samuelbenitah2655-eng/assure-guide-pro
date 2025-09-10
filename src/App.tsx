@@ -9,6 +9,7 @@ import ContactezNous from "./pages/ContactezNous";
 import CharteDonnees from "./pages/CharteDonnees";
 import MentionsLegales from "./pages/MentionsLegales";
 import NotFound from "./pages/NotFound";
+import ScrollToTop from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -18,6 +19,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/qui-sommes-nous" element={<QuiSommesNous />} />
